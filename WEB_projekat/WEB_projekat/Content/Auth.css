@@ -1,0 +1,97 @@
+﻿/* Globalni stilovi */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    background-color: #6367AB;
+}
+
+/* Poruke */
+.msg-success {
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.msg-error {
+    color: #ff9999;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Kontejner i box za formu */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.form-box {
+    background: #8695EB;
+    padding: 25px 30px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 400px;
+    text-align: center;
+}
+
+.form-box h2 {
+    margin-bottom: 20px;
+    color: black;
+}
+
+/*  Elementi unutar forme */
+.form-box form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-box label {
+    width: auto;
+    margin-bottom: 5px;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 250px;
+    max-width: 100%;
+}
+
+/* Dugmad */
+.btn,
+input[type="submit"].btn,
+button.btn {
+    display: inline-block;
+    padding: 10px 18px;
+    background-color: #333;
+    color: #fff !important;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.4;
+    transition: background-color 0.2s;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.btn:hover,
+input[type="submit"].btn:hover,
+button.btn:hover {
+    background-color: #555;
+}

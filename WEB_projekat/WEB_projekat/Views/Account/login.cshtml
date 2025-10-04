@@ -1,0 +1,37 @@
+﻿@{
+    Layout = null;
+    ViewBag.Title = "Prijava";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/Auth.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="form-container">
+        <div class="form-box">
+            <h2>Prijava</h2>
+
+            @if (ViewBag.Error != null)
+            {
+                <p class="msg-error">@ViewBag.Error</p>
+            }
+
+            <form method="post" action="/Account/Login">
+                <label>Korisničko ime:</label>
+                <input type="text" name="username" required />
+
+                <label>Lozinka:</label>
+                <input type="password" name="password" required />
+
+                <input type="submit" value="Prijavi se" class="btn" />
+            </form>
+
+            <p>Nemate nalog? <a href="/Account/Register" class="btn">Registrujte se</a></p>
+        </div>
+    </div>
+</body>
+</html>

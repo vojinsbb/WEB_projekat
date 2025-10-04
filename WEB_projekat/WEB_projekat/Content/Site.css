@@ -1,0 +1,233 @@
+﻿/* Default stilovi iz template-a */
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column */
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* Poruke o greškama i uspehu */
+.msg-success {
+    color: #fff; /* bela */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.msg-error {
+    color: #ff9999; /* bleda crvena */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Dugmad (isti izgled za linkove, input i button) */
+.btn,
+input[type="submit"].btn,
+button.btn {
+    display: inline-block;
+    padding: 10px 18px;
+    background-color: #333;
+    color: #fff !important;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.4;
+    transition: background-color 0.2s;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover,
+input[type="submit"].btn:hover,
+button.btn:hover {
+    background-color: #555;
+}
+
+/* Kontejner za forme */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+
+.form-box {
+    background: #8695EB;
+    padding: 20px 30px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 400px;
+    text-align: center;
+}
+
+.form-hint {
+    display: block;
+    font-size: 15px;
+    color: #666;
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+
+.form-box form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-box label {
+    width: auto;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.form-actions {
+    margin-top: 15px;
+}
+
+.form-actions .btn {
+    margin-right: 10px;
+}
+
+/* Globalni layout i header */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    background-color: #6367AB;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    header .header-left {
+        display: flex;
+        align-items: center;
+    }
+
+    header .logo {
+        height: 50px;
+        margin-right: 20px;
+    }
+
+    header nav a {
+        color: white;
+        margin-right: 15px;
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+        header nav a:hover {
+            text-decoration: underline;
+        }
+
+    header .header-right a {
+        color: white;
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+        header .header-right a:hover {
+            text-decoration: underline;
+        }
+
+/* Sticky footer */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+.content {
+    padding: 20px;
+}
+
+/* Tabele */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 15px;
+    background-color: #C9CFF5;
+}
+
+th, td {
+    border: 3px solid #262F63;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #3E4778;
+    font-weight: 600;
+    color: white;
+}
+
+/* Forme */
+label {
+    display: inline-block;
+    width: 150px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    padding: 6px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 250px;
+    max-width: 100%;
+}
+
+input[type="submit"], button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+button:hover {
+    background-color: #555;
+}

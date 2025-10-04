@@ -1,0 +1,32 @@
+[
+  {
+    "IsBlocked": false,
+    "Username": "sluzbenik1",
+    "Password": "123",
+    "JMBG": "1234567890123",
+    "FirstName": "Milan",
+    "LastName": "Milanovic",
+    "BirthDate": "15/03/1991",
+    "Email": "milan@gmail.com"
+  },
+  {
+    "IsBlocked": true,
+    "Username": "sluzbenik2",
+    "Password": "123",
+    "JMBG": "9876543210987",
+    "FirstName": "Ivana",
+    "LastName": "Ivanovic",
+    "BirthDate": "22/07/1988",
+    "Email": "ivana@gmail.com"
+  },
+  {
+    "IsBlocked": false,
+    "Username": "sluzbenik3",
+    "Password": "123",
+    "JMBG": "6666666666666",
+    "FirstName": "sl3ime",
+    "LastName": "sl3prezime",
+    "BirthDate": "24/03/1983",
+    "Email": "sl3@sl3.com"
+  }
+]

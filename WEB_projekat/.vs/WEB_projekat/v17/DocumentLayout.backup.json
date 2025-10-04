@@ -1,0 +1,615 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\web_projekat\\app_data\\data\\reservations.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|solutionrelative:web_projekat\\app_data\\data\\reservations.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\web_projekat\\app_data\\data\\users.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|solutionrelative:web_projekat\\app_data\\data\\users.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\web_projekat\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|solutionrelative:web_projekat\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\web_projekat\\content\\auth.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|solutionrelative:web_projekat\\content\\auth.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\web_projekat\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|solutionrelative:web_projekat\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\web_projekat\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|solutionrelative:web_projekat\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\web_projekat\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|solutionrelative:web_projekat\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\web_projekat\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|solutionrelative:web_projekat\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\web_projekat\\views\\employee\\reservations.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|solutionrelative:web_projekat\\views\\employee\\reservations.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\web_projekat\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|solutionrelative:web_projekat\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\web_projekat\\controllers\\passengercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|solutionrelative:web_projekat\\controllers\\passengercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\web_projekat\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|solutionrelative:web_projekat\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\web_projekat\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|solutionrelative:web_projekat\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\web_projekat\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|solutionrelative:web_projekat\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|d:\\ftn\\iii godina\\web\\projekat\\web_projekat\\web_projekat\\services\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|solutionrelative:web_projekat\\services\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\web_projekat\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|solutionrelative:web_projekat\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\web_projekat\\services\\uservalidationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|solutionrelative:web_projekat\\services\\uservalidationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\web_projekat\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|solutionrelative:web_projekat\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\web_projekat\\models\\busdeparture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|solutionrelative:web_projekat\\models\\busdeparture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\web_projekat\\views\\admin\\editemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|solutionrelative:web_projekat\\views\\admin\\editemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\web_projekat\\views\\admin\\createemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|solutionrelative:web_projekat\\views\\admin\\createemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\web_projekat\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|solutionrelative:web_projekat\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\web_projekat\\models\\passenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|solutionrelative:web_projekat\\models\\passenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\web_projekat\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|solutionrelative:web_projekat\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\web_projekat\\models\\customdatetimeconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|solutionrelative:web_projekat\\models\\customdatetimeconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\web_projekat\\app_data\\data\\buses.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|solutionrelative:web_projekat\\app_data\\data\\buses.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\web_projekat\\app_data\\data\\admins.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|solutionrelative:web_projekat\\app_data\\data\\admins.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\web_projekat\\app_data\\data\\employees.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|solutionrelative:web_projekat\\app_data\\data\\employees.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\web_projekat\\services\\passengerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|solutionrelative:web_projekat\\services\\passengerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\web_projekat\\views\\passenger\\reservations.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|solutionrelative:web_projekat\\views\\passenger\\reservations.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\web_projekat\\views\\passenger\\availabledepartures.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|solutionrelative:web_projekat\\views\\passenger\\availabledepartures.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\web_projekat\\views\\employee\\createdeparture.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|solutionrelative:web_projekat\\views\\employee\\createdeparture.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\web_projekat\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|solutionrelative:web_projekat\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\web_projekat\\views\\employee\\busdepartures.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|solutionrelative:web_projekat\\views\\employee\\busdepartures.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\web_projekat\\views\\admin\\employees.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|solutionrelative:web_projekat\\views\\admin\\employees.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\web_projekat\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB0669A8-6A40-4AE2-A442-A0860156A17E}|WEB_projekat\\WEB_projekat.csproj|solutionrelative:web_projekat\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 284,
+          "SelectedChildIndex": 33,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserValidationService.cs",
+              "DocumentMoniker": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Services\\UserValidationService.cs",
+              "RelativeDocumentMoniker": "WEB_projekat\\Services\\UserValidationService.cs",
+              "ToolTip": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Services\\UserValidationService.cs",
+              "RelativeToolTip": "WEB_projekat\\Services\\UserValidationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T22:30:50.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CustomDateTimeConverter.cs",
+              "DocumentMoniker": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Models\\CustomDateTimeConverter.cs",
+              "RelativeDocumentMoniker": "WEB_projekat\\Models\\CustomDateTimeConverter.cs",
+              "ToolTip": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Models\\CustomDateTimeConverter.cs",
+              "RelativeToolTip": "WEB_projekat\\Models\\CustomDateTimeConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T21:56:44.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Auth.css",
+              "DocumentMoniker": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Content\\Auth.css",
+              "RelativeDocumentMoniker": "WEB_projekat\\Content\\Auth.css",
+              "ToolTip": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Content\\Auth.css",
+              "RelativeToolTip": "WEB_projekat\\Content\\Auth.css",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-09-27T19:17:30.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Site.css",
+              "DocumentMoniker": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Content\\Site.css",
+              "RelativeDocumentMoniker": "WEB_projekat\\Content\\Site.css",
+              "ToolTip": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Content\\Site.css",
+              "RelativeToolTip": "WEB_projekat\\Content\\Site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-09-27T17:49:12.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "WEB_projekat\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "WEB_projekat\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-27T17:47:56.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "availableDepartures.cshtml",
+              "DocumentMoniker": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Views\\Passenger\\availableDepartures.cshtml",
+              "RelativeDocumentMoniker": "WEB_projekat\\Views\\Passenger\\availableDepartures.cshtml",
+              "ToolTip": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Views\\Passenger\\availableDepartures.cshtml",
+              "RelativeToolTip": "WEB_projekat\\Views\\Passenger\\availableDepartures.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-27T17:03:07.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WEB_projekat\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WEB_projekat\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-27T16:21:53.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "editEmployee.cshtml",
+              "DocumentMoniker": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Views\\Admin\\editEmployee.cshtml",
+              "RelativeDocumentMoniker": "WEB_projekat\\Views\\Admin\\editEmployee.cshtml",
+              "ToolTip": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Views\\Admin\\editEmployee.cshtml",
+              "RelativeToolTip": "WEB_projekat\\Views\\Admin\\editEmployee.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAkwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-27T16:20:20.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "createEmployee.cshtml",
+              "DocumentMoniker": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Views\\Admin\\createEmployee.cshtml",
+              "RelativeDocumentMoniker": "WEB_projekat\\Views\\Admin\\createEmployee.cshtml",
+              "ToolTip": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Views\\Admin\\createEmployee.cshtml",
+              "RelativeToolTip": "WEB_projekat\\Views\\Admin\\createEmployee.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAkwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-27T16:19:49.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "employees.cshtml",
+              "DocumentMoniker": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Views\\Admin\\employees.cshtml",
+              "RelativeDocumentMoniker": "WEB_projekat\\Views\\Admin\\employees.cshtml",
+              "ToolTip": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Views\\Admin\\employees.cshtml",
+              "RelativeToolTip": "WEB_projekat\\Views\\Admin\\employees.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-27T16:19:08.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "WEB_projekat\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "WEB_projekat\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAgwDEAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T16:18:12.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "reservations.cshtml",
+              "DocumentMoniker": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Views\\Employee\\reservations.cshtml",
+              "RelativeDocumentMoniker": "WEB_projekat\\Views\\Employee\\reservations.cshtml",
+              "ToolTip": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Views\\Employee\\reservations.cshtml",
+              "RelativeToolTip": "WEB_projekat\\Views\\Employee\\reservations.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-27T16:17:43.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "createDeparture.cshtml",
+              "DocumentMoniker": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Views\\Employee\\createDeparture.cshtml",
+              "RelativeDocumentMoniker": "WEB_projekat\\Views\\Employee\\createDeparture.cshtml",
+              "ToolTip": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Views\\Employee\\createDeparture.cshtml",
+              "RelativeToolTip": "WEB_projekat\\Views\\Employee\\createDeparture.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAADwvxcAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-27T16:17:09.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "busDepartures.cshtml",
+              "DocumentMoniker": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Views\\Employee\\busDepartures.cshtml",
+              "RelativeDocumentMoniker": "WEB_projekat\\Views\\Employee\\busDepartures.cshtml",
+              "ToolTip": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Views\\Employee\\busDepartures.cshtml",
+              "RelativeToolTip": "WEB_projekat\\Views\\Employee\\busDepartures.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-27T16:16:26.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "WEB_projekat\\Controllers\\EmployeeController.cs",
+              "ToolTip": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "WEB_projekat\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAAD8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T16:15:03.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "reservations.cshtml",
+              "DocumentMoniker": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Views\\Passenger\\reservations.cshtml",
+              "RelativeDocumentMoniker": "WEB_projekat\\Views\\Passenger\\reservations.cshtml",
+              "ToolTip": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Views\\Passenger\\reservations.cshtml",
+              "RelativeToolTip": "WEB_projekat\\Views\\Passenger\\reservations.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAIwBEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-27T16:11:30.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PassengerController.cs",
+              "DocumentMoniker": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Controllers\\PassengerController.cs",
+              "RelativeDocumentMoniker": "WEB_projekat\\Controllers\\PassengerController.cs",
+              "ToolTip": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Controllers\\PassengerController.cs",
+              "RelativeToolTip": "WEB_projekat\\Controllers\\PassengerController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAswBkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T16:08:09.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "register.cshtml",
+              "DocumentMoniker": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Views\\Account\\register.cshtml",
+              "RelativeDocumentMoniker": "WEB_projekat\\Views\\Account\\register.cshtml",
+              "ToolTip": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Views\\Account\\register.cshtml",
+              "RelativeToolTip": "WEB_projekat\\Views\\Account\\register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-27T16:06:08.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "login.cshtml",
+              "DocumentMoniker": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Views\\Account\\login.cshtml",
+              "RelativeDocumentMoniker": "WEB_projekat\\Views\\Account\\login.cshtml",
+              "ToolTip": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Views\\Account\\login.cshtml",
+              "RelativeToolTip": "WEB_projekat\\Views\\Account\\login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-27T16:04:17.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "WEB_projekat\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "WEB_projekat\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAgwD8AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T15:59:24.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AdminService.cs",
+              "DocumentMoniker": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Services\\AdminService.cs",
+              "RelativeDocumentMoniker": "WEB_projekat\\Services\\AdminService.cs",
+              "ToolTip": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Services\\AdminService.cs",
+              "RelativeToolTip": "WEB_projekat\\Services\\AdminService.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAQwFIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T14:37:46.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "WEB_projekat\\Services\\EmployeeService.cs",
+              "ToolTip": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Services\\EmployeeService.cs",
+              "RelativeToolTip": "WEB_projekat\\Services\\EmployeeService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wA8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T14:36:25.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "PassengerService.cs",
+              "DocumentMoniker": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Services\\PassengerService.cs",
+              "RelativeDocumentMoniker": "WEB_projekat\\Services\\PassengerService.cs",
+              "ToolTip": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Services\\PassengerService.cs",
+              "RelativeToolTip": "WEB_projekat\\Services\\PassengerService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAqwCEAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T14:34:39.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "WEB_projekat\\Services\\AuthService.cs",
+              "ToolTip": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Services\\AuthService.cs",
+              "RelativeToolTip": "WEB_projekat\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T14:32:15.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DataService.cs",
+              "DocumentMoniker": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Services\\DataService.cs",
+              "RelativeDocumentMoniker": "WEB_projekat\\Services\\DataService.cs",
+              "ToolTip": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Services\\DataService.cs",
+              "RelativeToolTip": "WEB_projekat\\Services\\DataService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T14:29:54.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Models\\Reservation.cs",
+              "RelativeDocumentMoniker": "WEB_projekat\\Models\\Reservation.cs",
+              "ToolTip": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Models\\Reservation.cs",
+              "RelativeToolTip": "WEB_projekat\\Models\\Reservation.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T14:26:49.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BusDeparture.cs",
+              "DocumentMoniker": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Models\\BusDeparture.cs",
+              "RelativeDocumentMoniker": "WEB_projekat\\Models\\BusDeparture.cs",
+              "ToolTip": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Models\\BusDeparture.cs",
+              "RelativeToolTip": "WEB_projekat\\Models\\BusDeparture.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T14:25:09.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Models\\Admin.cs",
+              "RelativeDocumentMoniker": "WEB_projekat\\Models\\Admin.cs",
+              "ToolTip": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Models\\Admin.cs",
+              "RelativeToolTip": "WEB_projekat\\Models\\Admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T14:24:38.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "WEB_projekat\\Models\\Employee.cs",
+              "ToolTip": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Models\\Employee.cs",
+              "RelativeToolTip": "WEB_projekat\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T14:23:27.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Passenger.cs",
+              "DocumentMoniker": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Models\\Passenger.cs",
+              "RelativeDocumentMoniker": "WEB_projekat\\Models\\Passenger.cs",
+              "ToolTip": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Models\\Passenger.cs",
+              "RelativeToolTip": "WEB_projekat\\Models\\Passenger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T14:21:54.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Models\\User.cs",
+              "RelativeDocumentMoniker": "WEB_projekat\\Models\\User.cs",
+              "ToolTip": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\Models\\User.cs",
+              "RelativeToolTip": "WEB_projekat\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T14:21:16.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "users.json",
+              "DocumentMoniker": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\App_Data\\data\\users.json",
+              "RelativeDocumentMoniker": "WEB_projekat\\App_Data\\data\\users.json",
+              "ToolTip": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\App_Data\\data\\users.json",
+              "RelativeToolTip": "WEB_projekat\\App_Data\\data\\users.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-27T16:58:53.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "reservations.json",
+              "DocumentMoniker": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\App_Data\\data\\reservations.json",
+              "RelativeDocumentMoniker": "WEB_projekat\\App_Data\\data\\reservations.json",
+              "ToolTip": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\App_Data\\data\\reservations.json",
+              "RelativeToolTip": "WEB_projekat\\App_Data\\data\\reservations.json",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAFoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-27T19:27:44.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "employees.json",
+              "DocumentMoniker": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\App_Data\\data\\employees.json",
+              "RelativeDocumentMoniker": "WEB_projekat\\App_Data\\data\\employees.json",
+              "ToolTip": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\App_Data\\data\\employees.json",
+              "RelativeToolTip": "WEB_projekat\\App_Data\\data\\employees.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-27T17:12:56.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "buses.json",
+              "DocumentMoniker": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\App_Data\\data\\buses.json",
+              "RelativeDocumentMoniker": "WEB_projekat\\App_Data\\data\\buses.json",
+              "ToolTip": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\App_Data\\data\\buses.json",
+              "RelativeToolTip": "WEB_projekat\\App_Data\\data\\buses.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-27T19:28:23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "admins.json",
+              "DocumentMoniker": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\App_Data\\data\\admins.json",
+              "RelativeDocumentMoniker": "WEB_projekat\\App_Data\\data\\admins.json",
+              "ToolTip": "D:\\FTN\\III godina\\Web\\Projekat\\WEB_projekat\\WEB_projekat\\App_Data\\data\\admins.json",
+              "RelativeToolTip": "WEB_projekat\\App_Data\\data\\admins.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-27T19:28:28.401Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

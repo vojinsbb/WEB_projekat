@@ -1,0 +1,43 @@
+﻿@model WEB_projekat.Models.BusDeparture
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Dodaj polazak";
+}
+
+<div class="form-container">
+    <div class="form-box">
+        <h2>Dodavanje novog polaska</h2>
+
+        @if (ViewBag.Error != null)
+        {
+            <p class="msg-error">@ViewBag.Error</p>
+        }
+
+    <form method="post" action="/Employee/CreateDeparture">
+        <label>Datum i vreme polaska:</label>
+        <input type="datetime-local" name="DepartureTime" required title="Format mora biti dd/MM/yyyy HH:mm"/>
+        <small class="form-hint">Format: dd/MM/yyyy HH:mm</small>
+        <br />
+
+        <label>Datum i vreme dolaska:</label>
+        <input type="datetime-local" name="ArrivalTime" required title="Format mora biti dd/MM/yyyy HH:mm"/>
+        <small class="form-hint">Format: dd/MM/yyyy HH:mm</small>
+        <br />
+
+        <label>Mesto polaska:</label>
+        <input type="text" name="StartLocation" required /><br />
+
+        <label>Mesto dolaska:</label>
+        <input type="text" name="EndLocation" required /><br />
+
+        <label>Ukupan broj mesta:</label>
+        <input type="number" name="TotalSeats" min="1" required /><br />
+
+        <div class="form-actions">
+            <input type="submit" value="Dodaj polazak" class="btn" />
+            <a href="/Employee/BusDepartures" class="btn">Nazad na polaske</a>
+        </div>
+    </form>
+    </div>
+</div>

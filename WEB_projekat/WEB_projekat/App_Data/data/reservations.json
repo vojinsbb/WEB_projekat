@@ -1,0 +1,121 @@
+[
+  {
+    "Id": "aaaa1111-aaaa-1111-aaaa-111111111111",
+    "Passenger": {
+      "PassportNumber": "P1111",
+      "Reservations": [],
+      "Username": "putnik1",
+      "Password": "123",
+      "JMBG": "1231231231231",
+      "FirstName": "Ana",
+      "LastName": "Anic",
+      "BirthDate": "15/03/1991",
+      "Email": "ana@test.com"
+    },
+    "BusDepartureId": "11111111-1111-1111-1111-111111111111",
+    "Status": 1,
+    "CreatedAt": "27/09/2025 12:00"
+  },
+  {
+    "Id": "bbbb2222-bbbb-2222-bbbb-222222222222",
+    "Passenger": {
+      "PassportNumber": "P2222",
+      "Reservations": [],
+      "Username": "putnik2",
+      "Password": "123",
+      "JMBG": "3213213213213",
+      "FirstName": "Jovan",
+      "LastName": "Jovic",
+      "BirthDate": "20/06/1993",
+      "Email": "jovan@test.com"
+    },
+    "BusDepartureId": "22222222-2222-2222-2222-222222222222",
+    "Status": 1,
+    "CreatedAt": "26/09/2025 09:00"
+  },
+  {
+    "Id": "1627779b-3bc7-4fbf-9c91-6f8716a2b91f",
+    "Passenger": {
+      "PassportNumber": "gggg2g",
+      "Reservations": [],
+      "Username": "test",
+      "Password": "123",
+      "JMBG": "6666666666666",
+      "FirstName": "test",
+      "LastName": "testic",
+      "BirthDate": "24/03/2000",
+      "Email": "test@test.com"
+    },
+    "BusDepartureId": "33333333-3333-3333-3333-333333333333",
+    "Status": 1,
+    "CreatedAt": "28/09/2025 00:15"
+  },
+  {
+    "Id": "72a3e980-21e1-4ba7-a1b2-496869b3c679",
+    "Passenger": {
+      "PassportNumber": "gggg2g",
+      "Reservations": [],
+      "Username": "test",
+      "Password": "123",
+      "JMBG": "6666666666666",
+      "FirstName": "test",
+      "LastName": "testic",
+      "BirthDate": "24/03/2000",
+      "Email": "test@test.com"
+    },
+    "BusDepartureId": "22222222-2222-2222-2222-222222222222",
+    "Status": 0,
+    "CreatedAt": "28/09/2025 00:18"
+  },
+  {
+    "Id": "6bce70d8-5efb-48c3-8c57-0190ed60d7a9",
+    "Passenger": {
+      "PassportNumber": "gggg2g",
+      "Reservations": [],
+      "Username": "test",
+      "Password": "123",
+      "JMBG": "6666666666666",
+      "FirstName": "test",
+      "LastName": "testic",
+      "BirthDate": "24/03/2000",
+      "Email": "test@test.com"
+    },
+    "BusDepartureId": "8472fc12-662a-4ca1-b002-8d146290e067",
+    "Status": 1,
+    "CreatedAt": "28/09/2025 00:25"
+  },
+  {
+    "Id": "daf90649-8320-488d-81c4-0098b892a238",
+    "Passenger": {
+      "PassportNumber": "P1111",
+      "Reservations": [],
+      "Username": "putnik1",
+      "Password": "123",
+      "JMBG": "1231231231231",
+      "FirstName": "Ana",
+      "LastName": "Anic",
+      "BirthDate": "15/03/1991",
+      "Email": "ana@test.com"
+    },
+    "BusDepartureId": "11111111-1111-1111-1111-111111111111",
+    "Status": 0,
+    "CreatedAt": "28/09/2025 00:55"
+  },
+  {
+    "Id": "20ac245d-4796-448c-a22b-66f102025a1f",
+    "Passenger": {
+      "PassportNumber": "gggg2g",
+      "Reservations": [],
+      "Username": "test",
+      "Password": "123",
+      "JMBG": "6666666666666",
+      "FirstName": "test",
+      "LastName": "testic",
+      "BirthDate": "24/03/2000",
+      "Email": "test@test.com"
+    },
+    "BusDepartureId": "1db706d2-4085-4362-b02b-7be06fb53634",
+    "Status": 1,
+    "CreatedAt": "28/09/2025 15:34"
+  }
+]

@@ -1,0 +1,47 @@
+﻿@model WEB_projekat.Models.Employee
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Izmena službenika";
+}
+
+<div class="form-container">
+    <div class="form-box">
+        <h2>Izmena podataka službenika (@Model.Username)</h2>
+
+        @if (ViewBag.Error != null)
+        {
+            <p class="msg-error">@ViewBag.Error</p>
+        }
+
+        <form method="post" action="/Admin/EditEmployee">
+            <input type="hidden" name="Username" value="@Model.Username" />
+            <input type="hidden" name="JMBG" value="@Model.JMBG" />
+
+            <label>Lozinka:</label>
+            <input type="password" name="Password" value="@Model.Password" required /><br />
+
+            <label>Ime:</label>
+            <input type="text" name="FirstName" value="@Model.FirstName" required /><br />
+
+            <label>Prezime:</label>
+            <input type="text" name="LastName" value="@Model.LastName" required /><br />
+
+            <label>Datum rođenja (dd/MM/yyyy):</label>
+            <input type="text" name="BirthDate" value="@Model.BirthDate" required />
+            <small class="form-hint">Format: dd/MM/yyyy</small>
+            <br />
+
+            <label>Email:</label>
+            <input type="email" name="Email" value="@Model.Email" required /><br />
+
+            <label>Blokiran:</label>
+            <input type="checkbox" name="IsBlocked" value="true" @(Model.IsBlocked ? "checked" : "") /><br />
+
+            <div class="form-actions">
+                <input type="submit" value="Sačuvaj izmene" class="btn" />
+                <a href="/Admin/Employees" class="btn">Nazad na listu</a>
+            </div>
+        </form>
+    </div>
+</div>

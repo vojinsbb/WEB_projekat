@@ -1,0 +1,26 @@
+﻿@model List<WEB_projekat.Models.Reservation>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Rezervacije za polazak";
+}
+
+<h2>Aktivne rezervacije za polazak</h2>
+
+<table border="1">
+    <tr>
+        <th>Putnik</th>
+        <th>Status</th>
+        <th>Kreirana</th>
+    </tr>
+    @foreach (var r in Model)
+    {
+        <tr>
+            <td>@r.Passenger.Username</td>
+            <td>@r.Status</td>
+            <td>@r.CreatedAt</td>
+        </tr>
+    }
+</table>
+
+<p><a href="/Employee/BusDepartures" class="btn">Nazad na polaske</a></p>

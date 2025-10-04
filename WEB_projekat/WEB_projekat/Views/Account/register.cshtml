@@ -1,0 +1,60 @@
+﻿@model WEB_projekat.Models.Passenger
+@{
+    Layout = null;
+    ViewBag.Title = "Registracija";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/Auth.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="form-container">
+        <div class="form-box">
+            <h2>Registracija putnika</h2>
+
+            @if (ViewBag.Error != null)
+            {
+                <p class="msg-error">@ViewBag.Error</p>
+            }
+            @if (ViewBag.Success != null)
+            {
+                <p class="msg-success">@ViewBag.Success</p>
+            }
+
+            <form method="post" action="/Account/Register">
+                <label>Korisničko ime:</label>
+                <input type="text" name="Username" required />
+
+                <label>Lozinka:</label>
+                <input type="password" name="Password" required />
+
+                <label>JMBG:</label>
+                <input type="text" name="JMBG" maxlength="13" required />
+
+                <label>Ime:</label>
+                <input type="text" name="FirstName" required />
+
+                <label>Prezime:</label>
+                <input type="text" name="LastName" required />
+
+                <label>Datum rođenja (dd/MM/yyyy):</label>
+                <input type="text" name="BirthDate" pattern="\d{2}/\d{2}/\d{4}" title="Format datuma mora biti dd/MM/yyyy" required />
+
+                <label>Email:</label>
+                <input type="email" name="Email" required />
+
+                <label>Broj pasoša:</label>
+                <input type="text" name="PassportNumber" required />
+
+                <input type="submit" value="Registruj se" class="btn" />
+            </form>
+
+            <p>Već imate nalog? <a href="/Account/Login" class="btn">Prijavite se</a></p>
+        </div>
+    </div>
+</body>
+</html>

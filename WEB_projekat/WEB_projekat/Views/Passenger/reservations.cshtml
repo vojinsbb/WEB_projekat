@@ -1,0 +1,41 @@
+﻿@model List<WEB_projekat.Models.Reservation>
+@using WEB_projekat.Models
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Moje rezervacije";
+}
+
+<h2>Moje rezervacije</h2>
+
+@if (TempData["Error"] != null)
+{
+    <p class="msg-error">@TempData["Error"]</p>
+}
+@if (TempData["Success"] != null)
+{
+    <p class="msg-success">@TempData["Success"]</p>
+}
+
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Status</th>
+        <th>Kreirana</th>
+        <th>Akcija</th>
+    </tr>
+    @foreach (var r in Model)
+    {
+        <tr>
+            <td>@r.Id</td>
+            <td>@r.Status</td>
+            <td>@r.CreatedAt</td>
+            <td>
+                @if (r.Status == ReservationStatus.Active)
+                {
+                    @Html.ActionLink("Otkaži", "CancelReservation", "Passenger", new { reservationId = r.Id }, null)
+                }
+            </td>
+        </tr>
+    }
+</table>

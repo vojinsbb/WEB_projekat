@@ -1,0 +1,39 @@
+﻿@model List<WEB_projekat.Models.BusDeparture>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Dostupni polasci";
+}
+
+<h2>Dostupni polasci</h2>
+
+<table border="1">
+    <tr>
+        <th>Datum i vreme polaska</th>
+        <th>Dolazak</th>
+        <th>Od</th>
+        <th>Do</th>
+        <th>Slobodna mesta</th>
+        <th>Akcija</th>
+    </tr>
+    @foreach (var bus in Model)
+    {
+        <tr>
+            <td>@bus.DepartureTime</td>
+            <td>@bus.ArrivalTime</td>
+            <td>@bus.StartLocation</td>
+            <td>@bus.EndLocation</td>
+            <td>@bus.AvailableSeats</td>
+            <td>
+                @if (bus.AvailableSeats > 0)
+                {
+                    @Html.ActionLink("Rezerviši", "CreateReservation", "Passenger", new { busId = bus.Id }, null)
+                }
+                else
+                {
+                    <span>Nema mesta</span>
+                }
+            </td>
+        </tr>
+    }
+</table>

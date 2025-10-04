@@ -1,0 +1,35 @@
+[
+  {
+    "PassportNumber": "P1111",
+    "Reservations": [],
+    "Username": "putnik1",
+    "Password": "123",
+    "JMBG": "1231231231231",
+    "FirstName": "Ana",
+    "LastName": "Anic",
+    "BirthDate": "15/03/1991",
+    "Email": "ana@test.com"
+  },
+  {
+    "PassportNumber": "P2222",
+    "Reservations": [],
+    "Username": "putnik2",
+    "Password": "123",
+    "JMBG": "3213213213213",
+    "FirstName": "Jovan",
+    "LastName": "Jovic",
+    "BirthDate": "20/06/1993",
+    "Email": "jovan@test.com"
+  },
+  {
+    "PassportNumber": "gggg2g",
+    "Reservations": [],
+    "Username": "test",
+    "Password": "123",
+    "JMBG": "6666666666666",
+    "FirstName": "test",
+    "LastName": "testic",
+    "BirthDate": "24/03/2000",
+    "Email": "test@test.com"
+  }
+]

@@ -1,0 +1,47 @@
+﻿@model List<WEB_projekat.Models.Employee>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Službenici";
+}
+
+<h2>Lista službenika</h2>
+
+@if (TempData["Error"] != null)
+{
+    <p class="msg-error">@TempData["Error"]</p>
+}
+@if (TempData["Success"] != null)
+{
+    <p class="msg-success">@TempData["Success"]</p>
+}
+
+<p><a href="/Admin/CreateEmployee" class="btn">Dodaj službenika</a></p>
+
+<table border="1">
+    <tr>
+        <th>Korisničko ime</th>
+        <th>Ime</th>
+        <th>Prezime</th>
+        <th>Email</th>
+        <th>JMBG</th>
+        <th>Blokiran</th>
+        <th>Akcije</th>
+    </tr>
+    @foreach (var emp in Model)
+    {
+        <tr>
+            <td>@emp.Username</td>
+            <td>@emp.FirstName</td>
+            <td>@emp.LastName</td>
+            <td>@emp.Email</td>
+            <td>@emp.JMBG</td>
+            <td>@emp.IsBlocked</td>
+            <td>
+                @Html.ActionLink("Izmeni", "EditEmployee", "Admin", new { username = emp.Username }, null) |
+                @Html.ActionLink("Blokiraj", "BlockEmployee", "Admin", new { username = emp.Username }, null)
+
+            </td>
+        </tr>
+    }
+</table>

@@ -1,0 +1,52 @@
+﻿@{
+    var role = Session["Role"] as string;
+    var user = Session["User"];
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title</title>
+
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <img src="https://i.pinimg.com/736x/2f/fc/b9/2ffcb91460d1d4b0d2ef8b3424b30779.jpg" alt="Bus Logo" class="logo" />
+
+            <nav>
+                @if (role == "Passenger")
+                {
+                    <a href="/Passenger/Reservations">Moje rezervacije</a>
+                    <a href="/Passenger/AvailableDepartures">Dostupni polasci</a>
+                }
+                else if (role == "Employee")
+                {
+                    <a href="/Employee/BusDepartures">Polasci autobusa</a>
+                }
+                else if (role == "Admin")
+                {
+                    <a href="/Admin/Employees">Službenici</a>
+                }
+            </nav>
+        </div>
+
+        <div class="header-right">
+            @if (role != null)
+            {
+                <a href="/Account/Logout">Odjavi se (@role)</a>
+            }
+        </div>
+    </header>
+
+    <div class="content">
+        @RenderBody()
+    </div>
+
+    <footer>
+        <p>&copy; 2024/25 Vojin Jovanovic FTN</p>
+    </footer>
+</body>
+</html>

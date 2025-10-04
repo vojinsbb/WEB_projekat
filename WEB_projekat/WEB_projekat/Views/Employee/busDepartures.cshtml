@@ -1,0 +1,47 @@
+﻿@model List<WEB_projekat.Models.BusDeparture>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Polasci autobusa";
+}
+
+<h2>Polasci autobusa</h2>
+
+@if (TempData["Error"] != null)
+{
+    <p class="msg-error">@TempData["Error"]</p>
+}
+@if (TempData["Success"] != null)
+{
+    <p class="msg-success">@TempData["Success"]</p>
+}
+
+<a href="/Employee/CreateDeparture" class="btn">Dodaj novi polazak</a>
+
+<table border="1">
+    <tr>
+        <th>Datum i vreme polaska</th>
+        <th>Dolazak</th>
+        <th>Od</th>
+        <th>Do</th>
+        <th>Ukupno mesta</th>
+        <th>Slobodna mesta</th>
+        <th>Akcije</th>
+    </tr>
+    @foreach (var bus in Model)
+    {
+        <tr>
+            <td>@bus.DepartureTime</td>
+            <td>@bus.ArrivalTime</td>
+            <td>@bus.StartLocation</td>
+            <td>@bus.EndLocation</td>
+            <td>@bus.TotalSeats</td>
+            <td>@bus.AvailableSeats</td>
+            <td>
+                <a href="/Employee/DeleteDeparture/@bus.Id">Obriši</a> |
+                @Html.ActionLink("Pregled rezervacija", "Reservations", "Employee", new { busId = bus.Id }, null)
+            </td>
+        </tr>
+    }
+</table>
+`
